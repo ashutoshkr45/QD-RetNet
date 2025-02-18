@@ -27,7 +27,7 @@ A novel framework implementing DML, knowledge distillation between Computational
 - ❌: Not Quantized
 
 ## 📁 Data Folder Structure
-
+Create a folder named `image_data` and place the TOPCON-MM dataset inside it. You can download the dataset from [this link](https://drive.google.com/drive/folders/15xQItFTVoTTyZ3wog02HsuQVHHFYTjkI?usp=sharing).
 ```
 image_data/
 └── topcon-mm/
