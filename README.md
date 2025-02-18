@@ -55,7 +55,7 @@ Other dependencies are listed in `requirements.txt`
 
 Code is available at:
 ```
-/raid/home/dgx1575/Ashutosh/quant\_fddm
+/raid/home/dgx1575/Ashutosh/quant_fddm
 ```
 
 ## 📚 References
