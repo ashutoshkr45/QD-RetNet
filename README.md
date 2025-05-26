@@ -6,7 +6,7 @@ Retinal diseases can cause permanent vision loss if not diagnosed early, making 
 <br>  
 This repository provides the **official PyTorch implementation** of our MIUA 2025 paper.
 
-![QD-RetNet Flow Diagram](flow_diagram.pdf)
+![QD-RetNet Flow Diagram](flow_diagram.png)
 
 **Figure:** The proposed training pipeline consists of two steps. First, the fundus model teaches the quantized OCT model; second, the OCT model teaches the quantized fundus model. Only the quantized student model is used at inference, requiring just a single image modality (fundus or OCT).
 
@@ -32,11 +32,11 @@ conda activate qd-retnet
 # Install other dependencies
 pip install -r requirements.txt
 
----
+```
 
 ## Implementation
 
-### 🔹 DATA
+### DATA
 
 Below are links to the original dataset repositories we used. Please follow their README instructions to download and organize the datasets:
 
@@ -48,7 +48,7 @@ This repository provides full setup and dataloaders for the TOPCON-MM dataset. F
 
 ---
 
-## 🔹 Training Models
+## Training Models
 
 ### Train Single-Modal Teacher Models:
 
@@ -72,15 +72,15 @@ python train_oddm.py
 
 ## Acknowledgements
 
-We acknowledge the public availability of the datasets we used:
-- [FDDM](https://github.com/xmed-lab/FDDM)
-- [MMC-AMD](https://github.com/li-xirong/mmc-amd)
-- [MultiEYE](https://github.com/xmed-lab/MultiEYE)
+- We acknowledge the public availability of the datasets we used:
+-- [FDDM](https://github.com/xmed-lab/FDDM)
+-- [MMC-AMD](https://github.com/li-xirong/mmc-amd)
+-- [MultiEYE](https://github.com/xmed-lab/MultiEYE)
 
-The knowledge distillation implementation is adapted from:
+- The knowledge distillation implementation is adapted from:
 🔗 https://github.com/xmed-lab/FDDM
 
-This research is supported by IIT (ISM) Dhanbad under the project FRS(220)/2024-2025/M&C.
+- This research is supported by IIT (ISM) Dhanbad under the project FRS(220)/2024-2025/M&C.
 
 ## Contact
 
