@@ -72,7 +72,7 @@ python train_oddm.py
 
 ## Acknowledgements
 
-- We acknowledge the public availability of the datasets we used: [FDDM](https://github.com/xmed-lab/FDDM)  [MMC-AMD](https://github.com/li-xirong/mmc-amd)  [MultiEYE](https://github.com/xmed-lab/MultiEYE)
+- We acknowledge the public availability of the datasets we used: [FDDM](https://github.com/xmed-lab/FDDM),  [MMC-AMD](https://github.com/li-xirong/mmc-amd),  [MultiEYE](https://github.com/xmed-lab/MultiEYE)
 
 - The knowledge distillation implementation is adapted from:
 🔗 https://github.com/xmed-lab/FDDM
