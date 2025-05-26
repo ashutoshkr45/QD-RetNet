@@ -34,7 +34,7 @@ class Config(object):
         "samples_num": 6400,
         "batch_size": 8,
         "print_freq": 10,
-        "max_epoch": 100,
+        "max_epoch": 80,
         "best_metric": "accuracy"
     }
 
