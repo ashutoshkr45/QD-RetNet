@@ -192,6 +192,7 @@ class MultiDataset_of(Dataset):
             self.labels_f_list = labels_f_list
             self.labels_o_list = labels_o_list
 
+        # Create class-wise indices for both modalities
         self.class_list_f = defaultdict(list)
         for idx in range(len(self.labels_f_list)):
             class_id = self._multi2binary(self.labels_f_list[idx])
@@ -209,6 +210,7 @@ class MultiDataset_of(Dataset):
             self.eye_pairs[eye_id].append(img_o_path)
 
     def _multi2binary(self, label_onehot):
+        """Convert multi-label one-hot to binary number for indexing"""
         root = 2 ** (self.cls_num - 1)
         result = 0
         for i in range(self.cls_num):
@@ -266,3 +268,4 @@ class MultiDataset_of(Dataset):
 
     def __len__(self):
         return len(self.img_f_path_list)
+        
