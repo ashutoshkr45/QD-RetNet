@@ -1,4 +1,5 @@
 from collections import defaultdict
+
 from .utils import *
 from .dataset import MultiDataset_fo, MultiDataset_of, SingleDataset
 import random
@@ -87,6 +88,7 @@ class DataOrganizer_fo:
                             if_test, cls_num, if_eval)
     
 class OCTBuffer:
+    """Buffer class for storing and retrieving OCT images for knowledge distillation"""
     def __init__(self, img_f_path_list, img_o_path_list, labels_f_list=None, labels_o_list=None,
                  aug_params=None, transform=None, cls_num=4):
         self.cls_num = cls_num
