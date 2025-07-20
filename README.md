@@ -70,6 +70,20 @@ python train_fddm.py
 python train_oddm.py
 ```
 
+## Citations
+
+If you find this repository helpful, please cite:
+
+```bibtex
+@inproceedings{kumar2025qd,
+  title={QD-RetNet: Efficient Retinal Disease Classification via Quantized Knowledge Distillation},
+  author={Kumar, Ashutosh and Verma, Manisha},
+  booktitle={Annual Conference on Medical Image Understanding and Analysis},
+  pages={279--292},
+  year={2025},
+  organization={Springer}
+}
+
 ## Acknowledgements
 
 - We acknowledge the public availability of the datasets we used: [FDDM](https://github.com/xmed-lab/FDDM),  [MMC-AMD](https://github.com/li-xirong/mmc-amd),  [MultiEYE](https://github.com/xmed-lab/MultiEYE)
