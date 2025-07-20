@@ -24,7 +24,7 @@ To set up the environment, run the following commands:
 
 ```bash
 # Create a new conda environment with Python 3.10
-conda create -n qd-retnet python=3.10
+conda create -n qd-retnet python==3.10
 
 # Activate the environment
 conda activate qd-retnet
@@ -75,7 +75,7 @@ python train_oddm.py
 - We acknowledge the public availability of the datasets we used: [FDDM](https://github.com/xmed-lab/FDDM),  [MMC-AMD](https://github.com/li-xirong/mmc-amd),  [MultiEYE](https://github.com/xmed-lab/MultiEYE)
 
 - The knowledge distillation implementation is adapted from:
-🔗 https://github.com/xmed-lab/FDDM
+   https://github.com/xmed-lab/FDDM
 
 - This research is supported by IIT (ISM) Dhanbad under the project FRS(220)/2024-2025/M&C.
 
